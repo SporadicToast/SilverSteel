@@ -23,6 +23,10 @@ Partial Class form_login
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lbl_top = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'lbl_top
@@ -30,22 +34,62 @@ Partial Class form_login
         Me.lbl_top.AutoSize = True
         Me.lbl_top.Location = New System.Drawing.Point(13, 13)
         Me.lbl_top.Name = "lbl_top"
-        Me.lbl_top.Size = New System.Drawing.Size(28, 13)
+        Me.lbl_top.Size = New System.Drawing.Size(107, 13)
         Me.lbl_top.TabIndex = 0
-        Me.lbl_top.Text = "Test"
+        Me.lbl_top.Text = "Login Authentication:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(48, 36)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(58, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Username:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(48, 58)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(56, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Password:"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(112, 33)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(168, 20)
+        Me.TextBox1.TabIndex = 1
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(112, 55)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(168, 20)
+        Me.TextBox2.TabIndex = 1
         '
         'form_login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(425, 261)
+        Me.ClientSize = New System.Drawing.Size(425, 101)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lbl_top)
         Me.Name = "form_login"
-        Me.Text = "SilverSteek Inventory Management System"
+        Me.Text = "SilverSteel Inventory Management System"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents lbl_top As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
 End Class
