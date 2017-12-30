@@ -85,9 +85,9 @@ Partial Class form_login
         '
         Me.Button2.Location = New System.Drawing.Point(310, 31)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(103, 23)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Button2asasas"
+        Me.Button2.Text = "Button Mo To"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'form_login
