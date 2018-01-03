@@ -17,6 +17,12 @@
         fetch_pass = pass_string
     End Function
 
+    'Lock Application
+    Public Function lock()
+        form_login.Show()
+        mainmenu.Close()
+    End Function
+    'Close Application
     Public Function close()
         Application.Exit()
     End Function
