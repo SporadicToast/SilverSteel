@@ -22,6 +22,7 @@ Partial Class mainmenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mainmenu))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -123,6 +124,10 @@ Partial Class mainmenu
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Label78 = New System.Windows.Forms.Label()
         Me.Label79 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KTVToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CarwashToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.pnl_c6.SuspendLayout()
@@ -148,7 +153,7 @@ Partial Class mainmenu
         '
         'FileToolStripMenuItem
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LockScreenToolStripMenuItem})
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LockScreenToolStripMenuItem, Me.OpenToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
@@ -1110,7 +1115,7 @@ Partial Class mainmenu
         'Label76
         '
         Me.Label76.AutoSize = True
-        Me.Label76.Location = New System.Drawing.Point(10, 55)
+        Me.Label76.Location = New System.Drawing.Point(7, 55)
         Me.Label76.Name = "Label76"
         Me.Label76.Size = New System.Drawing.Size(55, 13)
         Me.Label76.TabIndex = 4
@@ -1142,6 +1147,30 @@ Partial Class mainmenu
         Me.Label79.Size = New System.Drawing.Size(27, 13)
         Me.Label79.TabIndex = 5
         Me.Label79.Text = "cost"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
+        'OpenToolStripMenuItem
+        '
+        Me.OpenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KTVToolStripMenuItem, Me.CarwashToolStripMenuItem})
+        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.OpenToolStripMenuItem.Text = "Open"
+        '
+        'KTVToolStripMenuItem
+        '
+        Me.KTVToolStripMenuItem.Name = "KTVToolStripMenuItem"
+        Me.KTVToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.KTVToolStripMenuItem.Text = "KTV"
+        '
+        'CarwashToolStripMenuItem
+        '
+        Me.CarwashToolStripMenuItem.Name = "CarwashToolStripMenuItem"
+        Me.CarwashToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CarwashToolStripMenuItem.Text = "Carwash"
         '
         'mainmenu
         '
@@ -1279,4 +1308,8 @@ Partial Class mainmenu
     Friend WithEvents Label78 As Label
     Friend WithEvents Label76 As Label
     Friend WithEvents Label75 As Label
+    Friend WithEvents OpenToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents KTVToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CarwashToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Timer1 As Timer
 End Class

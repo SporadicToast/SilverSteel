@@ -128,6 +128,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="form_c_service.Designer.vb">
+      <DependentUpon>form_c_service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_c_service.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="form_login.resx">
@@ -144,6 +150,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_c_service.resx">
+      <DependentUpon>form_c_service.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

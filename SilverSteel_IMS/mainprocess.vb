@@ -3,6 +3,9 @@
     'Debug Variable
     Public debug As Boolean
     Public version As String
+
+    'Carwash Variables
+    Public carwash_bool() As Boolean = {False, False, False, False, False, False}
     'Close Function
 
     'Get Passwords and Usernames
@@ -17,6 +20,15 @@
         fetch_pass = pass_string
     End Function
 
+    'Automatic Off Add Screen On Add
+    Public Function add_lock(form As String, sel_ind As Integer) As String
+        If form = "carwash" And carwash_bool(sel_ind) = False Then
+            form_c_service.gb_carwash.Enabled = True
+        End If
+        If form = "carwash" And carwash_bool(sel_ind) = True Then
+            form_c_service.gb_carwash.Enabled = False
+        End If
+    End Function
     'Lock Application
     Public Function lock()
         form_login.Show()
