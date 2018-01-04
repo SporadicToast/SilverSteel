@@ -27,8 +27,15 @@ Partial Class mainmenu
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LockScreenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KTVToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CarwashToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.pnl_c6 = New System.Windows.Forms.Panel()
+        Me.cw_menustrip = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.NewServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CloseServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
@@ -116,21 +123,19 @@ Partial Class mainmenu
         Me.tp_carwash = New System.Windows.Forms.TabPage()
         Me.tp_ktv = New System.Windows.Forms.TabPage()
         Me.pnl_k1 = New System.Windows.Forms.Panel()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.Label78 = New System.Windows.Forms.Label()
         Me.Label79 = New System.Windows.Forms.Label()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label65 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.KTVToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CarwashToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.pnl_c6.SuspendLayout()
+        Me.cw_menustrip.SuspendLayout()
         Me.pnl_c5.SuspendLayout()
         Me.pnl_c4.SuspendLayout()
         Me.pnl_c3.SuspendLayout()
@@ -161,8 +166,27 @@ Partial Class mainmenu
         'LockScreenToolStripMenuItem
         '
         Me.LockScreenToolStripMenuItem.Name = "LockScreenToolStripMenuItem"
-        Me.LockScreenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.LockScreenToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
         Me.LockScreenToolStripMenuItem.Text = "Lock Screen"
+        '
+        'OpenToolStripMenuItem
+        '
+        Me.OpenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KTVToolStripMenuItem, Me.CarwashToolStripMenuItem})
+        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
+        Me.OpenToolStripMenuItem.Text = "Open"
+        '
+        'KTVToolStripMenuItem
+        '
+        Me.KTVToolStripMenuItem.Name = "KTVToolStripMenuItem"
+        Me.KTVToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
+        Me.KTVToolStripMenuItem.Text = "KTV"
+        '
+        'CarwashToolStripMenuItem
+        '
+        Me.CarwashToolStripMenuItem.Name = "CarwashToolStripMenuItem"
+        Me.CarwashToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
+        Me.CarwashToolStripMenuItem.Text = "Carwash"
         '
         'GroupBox1
         '
@@ -182,6 +206,7 @@ Partial Class mainmenu
         'pnl_c6
         '
         Me.pnl_c6.BackColor = System.Drawing.Color.Gray
+        Me.pnl_c6.ContextMenuStrip = Me.cw_menustrip
         Me.pnl_c6.Controls.Add(Me.Label52)
         Me.pnl_c6.Controls.Add(Me.Label53)
         Me.pnl_c6.Controls.Add(Me.Label54)
@@ -199,6 +224,30 @@ Partial Class mainmenu
         Me.pnl_c6.Name = "pnl_c6"
         Me.pnl_c6.Size = New System.Drawing.Size(485, 52)
         Me.pnl_c6.TabIndex = 2
+        '
+        'cw_menustrip
+        '
+        Me.cw_menustrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewServiceToolStripMenuItem, Me.CloseServiceToolStripMenuItem, Me.EditServiceToolStripMenuItem})
+        Me.cw_menustrip.Name = "ContextMenuStrip1"
+        Me.cw_menustrip.Size = New System.Drawing.Size(144, 70)
+        '
+        'NewServiceToolStripMenuItem
+        '
+        Me.NewServiceToolStripMenuItem.Name = "NewServiceToolStripMenuItem"
+        Me.NewServiceToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.NewServiceToolStripMenuItem.Text = "New Service"
+        '
+        'CloseServiceToolStripMenuItem
+        '
+        Me.CloseServiceToolStripMenuItem.Name = "CloseServiceToolStripMenuItem"
+        Me.CloseServiceToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.CloseServiceToolStripMenuItem.Text = "Close Service"
+        '
+        'EditServiceToolStripMenuItem
+        '
+        Me.EditServiceToolStripMenuItem.Name = "EditServiceToolStripMenuItem"
+        Me.EditServiceToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.EditServiceToolStripMenuItem.Text = "Edit Service"
         '
         'Label52
         '
@@ -323,6 +372,7 @@ Partial Class mainmenu
         'pnl_c5
         '
         Me.pnl_c5.BackColor = System.Drawing.Color.Gray
+        Me.pnl_c5.ContextMenuStrip = Me.cw_menustrip
         Me.pnl_c5.Controls.Add(Me.Label39)
         Me.pnl_c5.Controls.Add(Me.Label40)
         Me.pnl_c5.Controls.Add(Me.Label41)
@@ -464,6 +514,7 @@ Partial Class mainmenu
         'pnl_c4
         '
         Me.pnl_c4.BackColor = System.Drawing.Color.Gray
+        Me.pnl_c4.ContextMenuStrip = Me.cw_menustrip
         Me.pnl_c4.Controls.Add(Me.Label26)
         Me.pnl_c4.Controls.Add(Me.Label27)
         Me.pnl_c4.Controls.Add(Me.Label28)
@@ -605,6 +656,7 @@ Partial Class mainmenu
         'pnl_c3
         '
         Me.pnl_c3.BackColor = System.Drawing.Color.Gray
+        Me.pnl_c3.ContextMenuStrip = Me.cw_menustrip
         Me.pnl_c3.Controls.Add(Me.Label3)
         Me.pnl_c3.Controls.Add(Me.Label6)
         Me.pnl_c3.Controls.Add(Me.Label7)
@@ -746,6 +798,7 @@ Partial Class mainmenu
         'pnl_c2
         '
         Me.pnl_c2.BackColor = System.Drawing.Color.Gray
+        Me.pnl_c2.ContextMenuStrip = Me.cw_menustrip
         Me.pnl_c2.Controls.Add(Me.lbl_c2_ct)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_s)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_cd)
@@ -887,6 +940,7 @@ Partial Class mainmenu
         'pnl_c1
         '
         Me.pnl_c1.BackColor = System.Drawing.Color.Gray
+        Me.pnl_c1.ContextMenuStrip = Me.cw_menustrip
         Me.pnl_c1.Controls.Add(Me.lbl_c1_ct)
         Me.pnl_c1.Controls.Add(Me.lbl_c1_s)
         Me.pnl_c1.Controls.Add(Me.lbl_c1_cd)
@@ -1074,15 +1128,59 @@ Partial Class mainmenu
         Me.pnl_k1.Size = New System.Drawing.Size(230, 120)
         Me.pnl_k1.TabIndex = 0
         '
-        'Label65
+        'Label79
         '
-        Me.Label65.AutoSize = True
-        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(5, 2)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(40, 42)
-        Me.Label65.TabIndex = 1
-        Me.Label65.Text = "1"
+        Me.Label79.AutoSize = True
+        Me.Label79.Location = New System.Drawing.Point(86, 68)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(27, 13)
+        Me.Label79.TabIndex = 5
+        Me.Label79.Text = "cost"
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Location = New System.Drawing.Point(86, 55)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(26, 13)
+        Me.Label77.TabIndex = 5
+        Me.Label77.Text = "time"
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.Location = New System.Drawing.Point(86, 42)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(26, 13)
+        Me.Label74.TabIndex = 5
+        Me.Label74.Text = "time"
+        '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.Location = New System.Drawing.Point(7, 68)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(73, 13)
+        Me.Label78.TabIndex = 4
+        Me.Label78.Text = "Total Amount:"
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.Location = New System.Drawing.Point(7, 55)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(55, 13)
+        Me.Label76.TabIndex = 4
+        Me.Label76.Text = "End Time:"
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Location = New System.Drawing.Point(7, 42)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(58, 13)
+        Me.Label75.TabIndex = 4
+        Me.Label75.Text = "Start Time:"
         '
         'Label73
         '
@@ -1094,83 +1192,20 @@ Partial Class mainmenu
         Me.Label73.TabIndex = 2
         Me.Label73.Text = "2:00:00"
         '
-        'Label74
+        'Label65
         '
-        Me.Label74.AutoSize = True
-        Me.Label74.Location = New System.Drawing.Point(86, 42)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(26, 13)
-        Me.Label74.TabIndex = 5
-        Me.Label74.Text = "time"
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.Location = New System.Drawing.Point(7, 42)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(58, 13)
-        Me.Label75.TabIndex = 4
-        Me.Label75.Text = "Start Time:"
-        '
-        'Label76
-        '
-        Me.Label76.AutoSize = True
-        Me.Label76.Location = New System.Drawing.Point(7, 55)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(55, 13)
-        Me.Label76.TabIndex = 4
-        Me.Label76.Text = "End Time:"
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.Location = New System.Drawing.Point(86, 55)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(26, 13)
-        Me.Label77.TabIndex = 5
-        Me.Label77.Text = "time"
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.Location = New System.Drawing.Point(7, 68)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(73, 13)
-        Me.Label78.TabIndex = 4
-        Me.Label78.Text = "Total Amount:"
-        '
-        'Label79
-        '
-        Me.Label79.AutoSize = True
-        Me.Label79.Location = New System.Drawing.Point(86, 68)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(27, 13)
-        Me.Label79.TabIndex = 5
-        Me.Label79.Text = "cost"
+        Me.Label65.AutoSize = True
+        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(5, 2)
+        Me.Label65.Name = "Label65"
+        Me.Label65.Size = New System.Drawing.Size(40, 42)
+        Me.Label65.TabIndex = 1
+        Me.Label65.Text = "1"
         '
         'Timer1
         '
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
-        '
-        'OpenToolStripMenuItem
-        '
-        Me.OpenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KTVToolStripMenuItem, Me.CarwashToolStripMenuItem})
-        Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.OpenToolStripMenuItem.Text = "Open"
-        '
-        'KTVToolStripMenuItem
-        '
-        Me.KTVToolStripMenuItem.Name = "KTVToolStripMenuItem"
-        Me.KTVToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.KTVToolStripMenuItem.Text = "KTV"
-        '
-        'CarwashToolStripMenuItem
-        '
-        Me.CarwashToolStripMenuItem.Name = "CarwashToolStripMenuItem"
-        Me.CarwashToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CarwashToolStripMenuItem.Text = "Carwash"
         '
         'mainmenu
         '
@@ -1188,6 +1223,7 @@ Partial Class mainmenu
         Me.GroupBox1.ResumeLayout(False)
         Me.pnl_c6.ResumeLayout(False)
         Me.pnl_c6.PerformLayout()
+        Me.cw_menustrip.ResumeLayout(False)
         Me.pnl_c5.ResumeLayout(False)
         Me.pnl_c5.PerformLayout()
         Me.pnl_c4.ResumeLayout(False)
@@ -1312,4 +1348,8 @@ Partial Class mainmenu
     Friend WithEvents KTVToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CarwashToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents cw_menustrip As ContextMenuStrip
+    Friend WithEvents NewServiceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CloseServiceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EditServiceToolStripMenuItem As ToolStripMenuItem
 End Class

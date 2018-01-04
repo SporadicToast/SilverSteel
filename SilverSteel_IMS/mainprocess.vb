@@ -6,7 +6,14 @@
 
     'Carwash Variables
     Public carwash_bool() As Boolean = {False, False, False, False, False, False}
-    'Close Function
+
+    'Carwash Datalist
+    ' 0    1    2    3    4    5    6    7    8    9    10
+    'start end lp  card. cart. clnt a.p. s.t. l.c. com. vac.
+    'declare as (x)(y) where x is carwash descriptor and y carwash slot
+    Public carwash_datalist(,) As String = {{"", "", "", "", "", "", "", "", "", ""}, {"", "", "", "", "", "", "", "", "", ""}, {"", "", "", "", "", "", "", "", "", ""}, {"", "", "", "", "", "", "", "", "", ""}, {"", "", "", "", "", "", "", "", "", ""}, {"", "", "", "", "", "", "", "", "", ""}}
+
+
 
     'Get Passwords and Usernames
     Public Function fetch_user() As String()
@@ -29,6 +36,9 @@
             form_c_service.gb_carwash.Enabled = False
         End If
     End Function
+
+    'Carwash Time Handler
+
     'Lock Application
     Public Function lock()
         form_login.Show()
