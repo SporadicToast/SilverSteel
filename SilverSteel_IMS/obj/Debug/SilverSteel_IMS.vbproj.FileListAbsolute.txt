@@ -1,0 +1,13 @@
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.exe.config
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.exe
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.pdb
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.xml
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbprojResolveAssemblyReference.cache
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_login.resources
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_debug.resources
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.mainmenu.resources
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.Resources.resources
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbproj.GenerateResource.Cache
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.exe
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.xml
+E:\MACARAEG10SAN\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.pdb
