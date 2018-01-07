@@ -36,71 +36,81 @@ Partial Class mainmenu
         Me.NewServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditServiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
+        Me.lbl_c6_ct = New System.Windows.Forms.Label()
+        Me.lbl_c6_s = New System.Windows.Forms.Label()
+        Me.lbl_c6_cd = New System.Windows.Forms.Label()
+        Me.lbl_c6_vac = New System.Windows.Forms.Label()
+        Me.lbl_c6_ap = New System.Windows.Forms.Label()
+        Me.lbl_c6_st = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.Label58 = New System.Windows.Forms.Label()
         Me.Label59 = New System.Windows.Forms.Label()
         Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label81 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
+        Me.lbl_c6_countup = New System.Windows.Forms.Label()
+        Me.lbl_c6_plateno = New System.Windows.Forms.Label()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.pnl_c5 = New System.Windows.Forms.Panel()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
+        Me.lbl_c5_ct = New System.Windows.Forms.Label()
+        Me.lbl_c5_s = New System.Windows.Forms.Label()
+        Me.lbl_c5_cd = New System.Windows.Forms.Label()
+        Me.lbl_c5_vac = New System.Windows.Forms.Label()
+        Me.lbl_c5_ap = New System.Windows.Forms.Label()
+        Me.lbl_c5_st = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label72 = New System.Windows.Forms.Label()
         Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
+        Me.lbl_c5_countup = New System.Windows.Forms.Label()
+        Me.lbl_c5_plateno = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.pnl_c4 = New System.Windows.Forms.Panel()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
+        Me.lbl_c4_ct = New System.Windows.Forms.Label()
+        Me.lbl_c4_s = New System.Windows.Forms.Label()
+        Me.lbl_c4_cd = New System.Windows.Forms.Label()
+        Me.lbl_c4_vac = New System.Windows.Forms.Label()
+        Me.lbl_c4_ap = New System.Windows.Forms.Label()
+        Me.lbl_c4_st = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
+        Me.lbl_c4_countup = New System.Windows.Forms.Label()
+        Me.lbl_c4_plateno = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.pnl_c3 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.lbl_c3_ct = New System.Windows.Forms.Label()
+        Me.lbl_c3_s = New System.Windows.Forms.Label()
+        Me.lbl_c3_cd = New System.Windows.Forms.Label()
+        Me.lbl_c3_vac = New System.Windows.Forms.Label()
+        Me.lbl_c3_ap = New System.Windows.Forms.Label()
+        Me.lbl_c3_st = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
+        Me.lbl_c3_countup = New System.Windows.Forms.Label()
+        Me.lbl_c3_plateno = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.pnl_c2 = New System.Windows.Forms.Panel()
         Me.lbl_c2_ct = New System.Windows.Forms.Label()
         Me.lbl_c2_s = New System.Windows.Forms.Label()
         Me.lbl_c2_cd = New System.Windows.Forms.Label()
+        Me.lbl_c2_vac = New System.Windows.Forms.Label()
         Me.lbl_c2_ap = New System.Windows.Forms.Label()
         Me.lbl_c2_st = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label67 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.lbl_c2_countup = New System.Windows.Forms.Label()
         Me.lbl_c2_plateno = New System.Windows.Forms.Label()
@@ -109,10 +119,12 @@ Partial Class mainmenu
         Me.lbl_c1_ct = New System.Windows.Forms.Label()
         Me.lbl_c1_s = New System.Windows.Forms.Label()
         Me.lbl_c1_cd = New System.Windows.Forms.Label()
+        Me.lbl_c1_vac = New System.Windows.Forms.Label()
         Me.lbl_c1_ap = New System.Windows.Forms.Label()
         Me.lbl_c1_st = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -207,18 +219,20 @@ Partial Class mainmenu
         '
         Me.pnl_c6.BackColor = System.Drawing.Color.Gray
         Me.pnl_c6.ContextMenuStrip = Me.cw_menustrip
-        Me.pnl_c6.Controls.Add(Me.Label52)
-        Me.pnl_c6.Controls.Add(Me.Label53)
-        Me.pnl_c6.Controls.Add(Me.Label54)
-        Me.pnl_c6.Controls.Add(Me.Label55)
-        Me.pnl_c6.Controls.Add(Me.Label56)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_ct)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_s)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_cd)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_vac)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_ap)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_st)
         Me.pnl_c6.Controls.Add(Me.Label57)
         Me.pnl_c6.Controls.Add(Me.Label58)
         Me.pnl_c6.Controls.Add(Me.Label59)
         Me.pnl_c6.Controls.Add(Me.Label60)
+        Me.pnl_c6.Controls.Add(Me.Label81)
         Me.pnl_c6.Controls.Add(Me.Label61)
-        Me.pnl_c6.Controls.Add(Me.Label62)
-        Me.pnl_c6.Controls.Add(Me.Label63)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_countup)
+        Me.pnl_c6.Controls.Add(Me.lbl_c6_plateno)
         Me.pnl_c6.Controls.Add(Me.Label64)
         Me.pnl_c6.Location = New System.Drawing.Point(6, 309)
         Me.pnl_c6.Name = "pnl_c6"
@@ -249,50 +263,59 @@ Partial Class mainmenu
         Me.EditServiceToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.EditServiceToolStripMenuItem.Text = "Edit Service"
         '
-        'Label52
+        'lbl_c6_ct
         '
-        Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(226, 30)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(57, 13)
-        Me.Label52.TabIndex = 3
-        Me.Label52.Text = "type of car"
+        Me.lbl_c6_ct.AutoSize = True
+        Me.lbl_c6_ct.Location = New System.Drawing.Point(226, 30)
+        Me.lbl_c6_ct.Name = "lbl_c6_ct"
+        Me.lbl_c6_ct.Size = New System.Drawing.Size(57, 13)
+        Me.lbl_c6_ct.TabIndex = 3
+        Me.lbl_c6_ct.Text = "type of car"
         '
-        'Label53
+        'lbl_c6_s
         '
-        Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(226, 17)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(41, 13)
-        Me.Label53.TabIndex = 3
-        Me.Label53.Text = "service"
+        Me.lbl_c6_s.AutoSize = True
+        Me.lbl_c6_s.Location = New System.Drawing.Point(226, 17)
+        Me.lbl_c6_s.Name = "lbl_c6_s"
+        Me.lbl_c6_s.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_c6_s.TabIndex = 3
+        Me.lbl_c6_s.Text = "service"
         '
-        'Label54
+        'lbl_c6_cd
         '
-        Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(397, 29)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(30, 13)
-        Me.Label54.TabIndex = 3
-        Me.Label54.Text = "desc"
+        Me.lbl_c6_cd.AutoSize = True
+        Me.lbl_c6_cd.Location = New System.Drawing.Point(392, 29)
+        Me.lbl_c6_cd.Name = "lbl_c6_cd"
+        Me.lbl_c6_cd.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c6_cd.TabIndex = 3
+        Me.lbl_c6_cd.Text = "desc"
         '
-        'Label55
+        'lbl_c6_vac
         '
-        Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(398, 16)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(26, 13)
-        Me.Label55.TabIndex = 3
-        Me.Label55.Text = "time"
+        Me.lbl_c6_vac.AutoSize = True
+        Me.lbl_c6_vac.Location = New System.Drawing.Point(392, 4)
+        Me.lbl_c6_vac.Name = "lbl_c6_vac"
+        Me.lbl_c6_vac.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c6_vac.TabIndex = 3
+        Me.lbl_c6_vac.Text = "desc"
         '
-        'Label56
+        'lbl_c6_ap
         '
-        Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(226, 4)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(26, 13)
-        Me.Label56.TabIndex = 3
-        Me.Label56.Text = "time"
+        Me.lbl_c6_ap.AutoSize = True
+        Me.lbl_c6_ap.Location = New System.Drawing.Point(396, 16)
+        Me.lbl_c6_ap.Name = "lbl_c6_ap"
+        Me.lbl_c6_ap.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c6_ap.TabIndex = 3
+        Me.lbl_c6_ap.Text = "time"
+        '
+        'lbl_c6_st
+        '
+        Me.lbl_c6_st.AutoSize = True
+        Me.lbl_c6_st.Location = New System.Drawing.Point(226, 4)
+        Me.lbl_c6_st.Name = "lbl_c6_st"
+        Me.lbl_c6_st.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c6_st.TabIndex = 3
+        Me.lbl_c6_st.Text = "time"
         '
         'Label57
         '
@@ -315,7 +338,7 @@ Partial Class mainmenu
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(310, 29)
+        Me.Label59.Location = New System.Drawing.Point(308, 28)
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(82, 13)
         Me.Label59.TabIndex = 2
@@ -324,11 +347,20 @@ Partial Class mainmenu
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(336, 17)
+        Me.Label60.Location = New System.Drawing.Point(335, 16)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(55, 13)
         Me.Label60.TabIndex = 2
         Me.Label60.Text = "Amt. Paid:"
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.Location = New System.Drawing.Point(341, 4)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(49, 13)
+        Me.Label81.TabIndex = 2
+        Me.Label81.Text = "Vacuum:"
         '
         'Label61
         '
@@ -339,25 +371,25 @@ Partial Class mainmenu
         Me.Label61.TabIndex = 2
         Me.Label61.Text = "Start Time:"
         '
-        'Label62
+        'lbl_c6_countup
         '
-        Me.Label62.AutoSize = True
-        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(50, 24)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(29, 20)
-        Me.Label62.TabIndex = 1
-        Me.Label62.Text = "----"
+        Me.lbl_c6_countup.AutoSize = True
+        Me.lbl_c6_countup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c6_countup.Location = New System.Drawing.Point(50, 24)
+        Me.lbl_c6_countup.Name = "lbl_c6_countup"
+        Me.lbl_c6_countup.Size = New System.Drawing.Size(29, 20)
+        Me.lbl_c6_countup.TabIndex = 1
+        Me.lbl_c6_countup.Text = "----"
         '
-        'Label63
+        'lbl_c6_plateno
         '
-        Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(50, 4)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(85, 20)
-        Me.Label63.TabIndex = 1
-        Me.Label63.Text = "LLL-NNNN"
+        Me.lbl_c6_plateno.AutoSize = True
+        Me.lbl_c6_plateno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c6_plateno.Location = New System.Drawing.Point(50, 4)
+        Me.lbl_c6_plateno.Name = "lbl_c6_plateno"
+        Me.lbl_c6_plateno.Size = New System.Drawing.Size(85, 20)
+        Me.lbl_c6_plateno.TabIndex = 1
+        Me.lbl_c6_plateno.Text = "LLL-NNNN"
         '
         'Label64
         '
@@ -373,68 +405,79 @@ Partial Class mainmenu
         '
         Me.pnl_c5.BackColor = System.Drawing.Color.Gray
         Me.pnl_c5.ContextMenuStrip = Me.cw_menustrip
-        Me.pnl_c5.Controls.Add(Me.Label39)
-        Me.pnl_c5.Controls.Add(Me.Label40)
-        Me.pnl_c5.Controls.Add(Me.Label41)
-        Me.pnl_c5.Controls.Add(Me.Label42)
-        Me.pnl_c5.Controls.Add(Me.Label43)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_ct)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_s)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_cd)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_vac)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_ap)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_st)
         Me.pnl_c5.Controls.Add(Me.Label44)
         Me.pnl_c5.Controls.Add(Me.Label45)
         Me.pnl_c5.Controls.Add(Me.Label46)
         Me.pnl_c5.Controls.Add(Me.Label47)
+        Me.pnl_c5.Controls.Add(Me.Label72)
         Me.pnl_c5.Controls.Add(Me.Label48)
-        Me.pnl_c5.Controls.Add(Me.Label49)
-        Me.pnl_c5.Controls.Add(Me.Label50)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_countup)
+        Me.pnl_c5.Controls.Add(Me.lbl_c5_plateno)
         Me.pnl_c5.Controls.Add(Me.Label51)
         Me.pnl_c5.Location = New System.Drawing.Point(6, 251)
         Me.pnl_c5.Name = "pnl_c5"
         Me.pnl_c5.Size = New System.Drawing.Size(485, 52)
         Me.pnl_c5.TabIndex = 2
         '
-        'Label39
+        'lbl_c5_ct
         '
-        Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(226, 30)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(57, 13)
-        Me.Label39.TabIndex = 3
-        Me.Label39.Text = "type of car"
+        Me.lbl_c5_ct.AutoSize = True
+        Me.lbl_c5_ct.Location = New System.Drawing.Point(226, 30)
+        Me.lbl_c5_ct.Name = "lbl_c5_ct"
+        Me.lbl_c5_ct.Size = New System.Drawing.Size(57, 13)
+        Me.lbl_c5_ct.TabIndex = 3
+        Me.lbl_c5_ct.Text = "type of car"
         '
-        'Label40
+        'lbl_c5_s
         '
-        Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(226, 17)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(41, 13)
-        Me.Label40.TabIndex = 3
-        Me.Label40.Text = "service"
+        Me.lbl_c5_s.AutoSize = True
+        Me.lbl_c5_s.Location = New System.Drawing.Point(226, 17)
+        Me.lbl_c5_s.Name = "lbl_c5_s"
+        Me.lbl_c5_s.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_c5_s.TabIndex = 3
+        Me.lbl_c5_s.Text = "service"
         '
-        'Label41
+        'lbl_c5_cd
         '
-        Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(397, 29)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(30, 13)
-        Me.Label41.TabIndex = 3
-        Me.Label41.Text = "desc"
+        Me.lbl_c5_cd.AutoSize = True
+        Me.lbl_c5_cd.Location = New System.Drawing.Point(392, 29)
+        Me.lbl_c5_cd.Name = "lbl_c5_cd"
+        Me.lbl_c5_cd.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c5_cd.TabIndex = 3
+        Me.lbl_c5_cd.Text = "desc"
         '
-        'Label42
+        'lbl_c5_vac
         '
-        Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(398, 16)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(26, 13)
-        Me.Label42.TabIndex = 3
-        Me.Label42.Text = "time"
+        Me.lbl_c5_vac.AutoSize = True
+        Me.lbl_c5_vac.Location = New System.Drawing.Point(392, 4)
+        Me.lbl_c5_vac.Name = "lbl_c5_vac"
+        Me.lbl_c5_vac.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c5_vac.TabIndex = 3
+        Me.lbl_c5_vac.Text = "desc"
         '
-        'Label43
+        'lbl_c5_ap
         '
-        Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(226, 4)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(26, 13)
-        Me.Label43.TabIndex = 3
-        Me.Label43.Text = "time"
+        Me.lbl_c5_ap.AutoSize = True
+        Me.lbl_c5_ap.Location = New System.Drawing.Point(396, 16)
+        Me.lbl_c5_ap.Name = "lbl_c5_ap"
+        Me.lbl_c5_ap.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c5_ap.TabIndex = 3
+        Me.lbl_c5_ap.Text = "time"
+        '
+        'lbl_c5_st
+        '
+        Me.lbl_c5_st.AutoSize = True
+        Me.lbl_c5_st.Location = New System.Drawing.Point(226, 4)
+        Me.lbl_c5_st.Name = "lbl_c5_st"
+        Me.lbl_c5_st.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c5_st.TabIndex = 3
+        Me.lbl_c5_st.Text = "time"
         '
         'Label44
         '
@@ -457,7 +500,7 @@ Partial Class mainmenu
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(310, 29)
+        Me.Label46.Location = New System.Drawing.Point(308, 28)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(82, 13)
         Me.Label46.TabIndex = 2
@@ -466,11 +509,20 @@ Partial Class mainmenu
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(336, 17)
+        Me.Label47.Location = New System.Drawing.Point(335, 16)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(55, 13)
         Me.Label47.TabIndex = 2
         Me.Label47.Text = "Amt. Paid:"
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Location = New System.Drawing.Point(341, 4)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(49, 13)
+        Me.Label72.TabIndex = 2
+        Me.Label72.Text = "Vacuum:"
         '
         'Label48
         '
@@ -481,25 +533,25 @@ Partial Class mainmenu
         Me.Label48.TabIndex = 2
         Me.Label48.Text = "Start Time:"
         '
-        'Label49
+        'lbl_c5_countup
         '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(50, 24)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(29, 20)
-        Me.Label49.TabIndex = 1
-        Me.Label49.Text = "----"
+        Me.lbl_c5_countup.AutoSize = True
+        Me.lbl_c5_countup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c5_countup.Location = New System.Drawing.Point(50, 24)
+        Me.lbl_c5_countup.Name = "lbl_c5_countup"
+        Me.lbl_c5_countup.Size = New System.Drawing.Size(29, 20)
+        Me.lbl_c5_countup.TabIndex = 1
+        Me.lbl_c5_countup.Text = "----"
         '
-        'Label50
+        'lbl_c5_plateno
         '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(50, 4)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(85, 20)
-        Me.Label50.TabIndex = 1
-        Me.Label50.Text = "LLL-NNNN"
+        Me.lbl_c5_plateno.AutoSize = True
+        Me.lbl_c5_plateno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c5_plateno.Location = New System.Drawing.Point(50, 4)
+        Me.lbl_c5_plateno.Name = "lbl_c5_plateno"
+        Me.lbl_c5_plateno.Size = New System.Drawing.Size(85, 20)
+        Me.lbl_c5_plateno.TabIndex = 1
+        Me.lbl_c5_plateno.Text = "LLL-NNNN"
         '
         'Label51
         '
@@ -515,68 +567,79 @@ Partial Class mainmenu
         '
         Me.pnl_c4.BackColor = System.Drawing.Color.Gray
         Me.pnl_c4.ContextMenuStrip = Me.cw_menustrip
-        Me.pnl_c4.Controls.Add(Me.Label26)
-        Me.pnl_c4.Controls.Add(Me.Label27)
-        Me.pnl_c4.Controls.Add(Me.Label28)
-        Me.pnl_c4.Controls.Add(Me.Label29)
-        Me.pnl_c4.Controls.Add(Me.Label30)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_ct)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_s)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_cd)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_vac)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_ap)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_st)
         Me.pnl_c4.Controls.Add(Me.Label31)
         Me.pnl_c4.Controls.Add(Me.Label32)
         Me.pnl_c4.Controls.Add(Me.Label33)
         Me.pnl_c4.Controls.Add(Me.Label34)
+        Me.pnl_c4.Controls.Add(Me.Label70)
         Me.pnl_c4.Controls.Add(Me.Label35)
-        Me.pnl_c4.Controls.Add(Me.Label36)
-        Me.pnl_c4.Controls.Add(Me.Label37)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_countup)
+        Me.pnl_c4.Controls.Add(Me.lbl_c4_plateno)
         Me.pnl_c4.Controls.Add(Me.Label38)
         Me.pnl_c4.Location = New System.Drawing.Point(6, 193)
         Me.pnl_c4.Name = "pnl_c4"
         Me.pnl_c4.Size = New System.Drawing.Size(485, 52)
         Me.pnl_c4.TabIndex = 2
         '
-        'Label26
+        'lbl_c4_ct
         '
-        Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(226, 30)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(57, 13)
-        Me.Label26.TabIndex = 3
-        Me.Label26.Text = "type of car"
+        Me.lbl_c4_ct.AutoSize = True
+        Me.lbl_c4_ct.Location = New System.Drawing.Point(226, 30)
+        Me.lbl_c4_ct.Name = "lbl_c4_ct"
+        Me.lbl_c4_ct.Size = New System.Drawing.Size(57, 13)
+        Me.lbl_c4_ct.TabIndex = 3
+        Me.lbl_c4_ct.Text = "type of car"
         '
-        'Label27
+        'lbl_c4_s
         '
-        Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(226, 17)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(41, 13)
-        Me.Label27.TabIndex = 3
-        Me.Label27.Text = "service"
+        Me.lbl_c4_s.AutoSize = True
+        Me.lbl_c4_s.Location = New System.Drawing.Point(226, 17)
+        Me.lbl_c4_s.Name = "lbl_c4_s"
+        Me.lbl_c4_s.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_c4_s.TabIndex = 3
+        Me.lbl_c4_s.Text = "service"
         '
-        'Label28
+        'lbl_c4_cd
         '
-        Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(397, 29)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(30, 13)
-        Me.Label28.TabIndex = 3
-        Me.Label28.Text = "desc"
+        Me.lbl_c4_cd.AutoSize = True
+        Me.lbl_c4_cd.Location = New System.Drawing.Point(392, 29)
+        Me.lbl_c4_cd.Name = "lbl_c4_cd"
+        Me.lbl_c4_cd.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c4_cd.TabIndex = 3
+        Me.lbl_c4_cd.Text = "desc"
         '
-        'Label29
+        'lbl_c4_vac
         '
-        Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(398, 16)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(26, 13)
-        Me.Label29.TabIndex = 3
-        Me.Label29.Text = "time"
+        Me.lbl_c4_vac.AutoSize = True
+        Me.lbl_c4_vac.Location = New System.Drawing.Point(392, 4)
+        Me.lbl_c4_vac.Name = "lbl_c4_vac"
+        Me.lbl_c4_vac.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c4_vac.TabIndex = 3
+        Me.lbl_c4_vac.Text = "desc"
         '
-        'Label30
+        'lbl_c4_ap
         '
-        Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(226, 4)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(26, 13)
-        Me.Label30.TabIndex = 3
-        Me.Label30.Text = "time"
+        Me.lbl_c4_ap.AutoSize = True
+        Me.lbl_c4_ap.Location = New System.Drawing.Point(396, 16)
+        Me.lbl_c4_ap.Name = "lbl_c4_ap"
+        Me.lbl_c4_ap.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c4_ap.TabIndex = 3
+        Me.lbl_c4_ap.Text = "time"
+        '
+        'lbl_c4_st
+        '
+        Me.lbl_c4_st.AutoSize = True
+        Me.lbl_c4_st.Location = New System.Drawing.Point(226, 4)
+        Me.lbl_c4_st.Name = "lbl_c4_st"
+        Me.lbl_c4_st.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c4_st.TabIndex = 3
+        Me.lbl_c4_st.Text = "time"
         '
         'Label31
         '
@@ -599,7 +662,7 @@ Partial Class mainmenu
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(310, 29)
+        Me.Label33.Location = New System.Drawing.Point(308, 28)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(82, 13)
         Me.Label33.TabIndex = 2
@@ -608,11 +671,20 @@ Partial Class mainmenu
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(336, 17)
+        Me.Label34.Location = New System.Drawing.Point(335, 16)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(55, 13)
         Me.Label34.TabIndex = 2
         Me.Label34.Text = "Amt. Paid:"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Location = New System.Drawing.Point(341, 4)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(49, 13)
+        Me.Label70.TabIndex = 2
+        Me.Label70.Text = "Vacuum:"
         '
         'Label35
         '
@@ -623,25 +695,25 @@ Partial Class mainmenu
         Me.Label35.TabIndex = 2
         Me.Label35.Text = "Start Time:"
         '
-        'Label36
+        'lbl_c4_countup
         '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(50, 24)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(29, 20)
-        Me.Label36.TabIndex = 1
-        Me.Label36.Text = "----"
+        Me.lbl_c4_countup.AutoSize = True
+        Me.lbl_c4_countup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c4_countup.Location = New System.Drawing.Point(50, 24)
+        Me.lbl_c4_countup.Name = "lbl_c4_countup"
+        Me.lbl_c4_countup.Size = New System.Drawing.Size(29, 20)
+        Me.lbl_c4_countup.TabIndex = 1
+        Me.lbl_c4_countup.Text = "----"
         '
-        'Label37
+        'lbl_c4_plateno
         '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(50, 4)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(85, 20)
-        Me.Label37.TabIndex = 1
-        Me.Label37.Text = "LLL-NNNN"
+        Me.lbl_c4_plateno.AutoSize = True
+        Me.lbl_c4_plateno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c4_plateno.Location = New System.Drawing.Point(48, 4)
+        Me.lbl_c4_plateno.Name = "lbl_c4_plateno"
+        Me.lbl_c4_plateno.Size = New System.Drawing.Size(85, 20)
+        Me.lbl_c4_plateno.TabIndex = 1
+        Me.lbl_c4_plateno.Text = "LLL-NNNN"
         '
         'Label38
         '
@@ -657,68 +729,79 @@ Partial Class mainmenu
         '
         Me.pnl_c3.BackColor = System.Drawing.Color.Gray
         Me.pnl_c3.ContextMenuStrip = Me.cw_menustrip
-        Me.pnl_c3.Controls.Add(Me.Label3)
-        Me.pnl_c3.Controls.Add(Me.Label6)
-        Me.pnl_c3.Controls.Add(Me.Label7)
-        Me.pnl_c3.Controls.Add(Me.Label8)
-        Me.pnl_c3.Controls.Add(Me.Label10)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_ct)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_s)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_cd)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_vac)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_ap)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_st)
         Me.pnl_c3.Controls.Add(Me.Label12)
         Me.pnl_c3.Controls.Add(Me.Label17)
         Me.pnl_c3.Controls.Add(Me.Label18)
         Me.pnl_c3.Controls.Add(Me.Label20)
+        Me.pnl_c3.Controls.Add(Me.Label68)
         Me.pnl_c3.Controls.Add(Me.Label22)
-        Me.pnl_c3.Controls.Add(Me.Label23)
-        Me.pnl_c3.Controls.Add(Me.Label24)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_countup)
+        Me.pnl_c3.Controls.Add(Me.lbl_c3_plateno)
         Me.pnl_c3.Controls.Add(Me.Label25)
         Me.pnl_c3.Location = New System.Drawing.Point(6, 135)
         Me.pnl_c3.Name = "pnl_c3"
         Me.pnl_c3.Size = New System.Drawing.Size(485, 52)
         Me.pnl_c3.TabIndex = 2
         '
-        'Label3
+        'lbl_c3_ct
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(226, 30)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(57, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "type of car"
+        Me.lbl_c3_ct.AutoSize = True
+        Me.lbl_c3_ct.Location = New System.Drawing.Point(226, 30)
+        Me.lbl_c3_ct.Name = "lbl_c3_ct"
+        Me.lbl_c3_ct.Size = New System.Drawing.Size(57, 13)
+        Me.lbl_c3_ct.TabIndex = 3
+        Me.lbl_c3_ct.Text = "type of car"
         '
-        'Label6
+        'lbl_c3_s
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(226, 17)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(41, 13)
-        Me.Label6.TabIndex = 3
-        Me.Label6.Text = "service"
+        Me.lbl_c3_s.AutoSize = True
+        Me.lbl_c3_s.Location = New System.Drawing.Point(226, 17)
+        Me.lbl_c3_s.Name = "lbl_c3_s"
+        Me.lbl_c3_s.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_c3_s.TabIndex = 3
+        Me.lbl_c3_s.Text = "service"
         '
-        'Label7
+        'lbl_c3_cd
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(397, 29)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(30, 13)
-        Me.Label7.TabIndex = 3
-        Me.Label7.Text = "desc"
+        Me.lbl_c3_cd.AutoSize = True
+        Me.lbl_c3_cd.Location = New System.Drawing.Point(397, 29)
+        Me.lbl_c3_cd.Name = "lbl_c3_cd"
+        Me.lbl_c3_cd.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c3_cd.TabIndex = 3
+        Me.lbl_c3_cd.Text = "desc"
         '
-        'Label8
+        'lbl_c3_vac
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(398, 16)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(26, 13)
-        Me.Label8.TabIndex = 3
-        Me.Label8.Text = "time"
+        Me.lbl_c3_vac.AutoSize = True
+        Me.lbl_c3_vac.Location = New System.Drawing.Point(397, 3)
+        Me.lbl_c3_vac.Name = "lbl_c3_vac"
+        Me.lbl_c3_vac.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c3_vac.TabIndex = 3
+        Me.lbl_c3_vac.Text = "desc"
         '
-        'Label10
+        'lbl_c3_ap
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(226, 4)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(26, 13)
-        Me.Label10.TabIndex = 3
-        Me.Label10.Text = "time"
+        Me.lbl_c3_ap.AutoSize = True
+        Me.lbl_c3_ap.Location = New System.Drawing.Point(398, 16)
+        Me.lbl_c3_ap.Name = "lbl_c3_ap"
+        Me.lbl_c3_ap.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c3_ap.TabIndex = 3
+        Me.lbl_c3_ap.Text = "time"
+        '
+        'lbl_c3_st
+        '
+        Me.lbl_c3_st.AutoSize = True
+        Me.lbl_c3_st.Location = New System.Drawing.Point(226, 4)
+        Me.lbl_c3_st.Name = "lbl_c3_st"
+        Me.lbl_c3_st.Size = New System.Drawing.Size(26, 13)
+        Me.lbl_c3_st.TabIndex = 3
+        Me.lbl_c3_st.Text = "time"
         '
         'Label12
         '
@@ -741,7 +824,7 @@ Partial Class mainmenu
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(310, 29)
+        Me.Label18.Location = New System.Drawing.Point(308, 29)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(82, 13)
         Me.Label18.TabIndex = 2
@@ -750,11 +833,20 @@ Partial Class mainmenu
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(336, 17)
+        Me.Label20.Location = New System.Drawing.Point(335, 17)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(55, 13)
         Me.Label20.TabIndex = 2
         Me.Label20.Text = "Amt. Paid:"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Location = New System.Drawing.Point(341, 4)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(49, 13)
+        Me.Label68.TabIndex = 2
+        Me.Label68.Text = "Vacuum:"
         '
         'Label22
         '
@@ -765,25 +857,25 @@ Partial Class mainmenu
         Me.Label22.TabIndex = 2
         Me.Label22.Text = "Start Time:"
         '
-        'Label23
+        'lbl_c3_countup
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(50, 24)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(29, 20)
-        Me.Label23.TabIndex = 1
-        Me.Label23.Text = "----"
+        Me.lbl_c3_countup.AutoSize = True
+        Me.lbl_c3_countup.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c3_countup.Location = New System.Drawing.Point(50, 24)
+        Me.lbl_c3_countup.Name = "lbl_c3_countup"
+        Me.lbl_c3_countup.Size = New System.Drawing.Size(29, 20)
+        Me.lbl_c3_countup.TabIndex = 1
+        Me.lbl_c3_countup.Text = "----"
         '
-        'Label24
+        'lbl_c3_plateno
         '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(50, 4)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(85, 20)
-        Me.Label24.TabIndex = 1
-        Me.Label24.Text = "LLL-NNNN"
+        Me.lbl_c3_plateno.AutoSize = True
+        Me.lbl_c3_plateno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_c3_plateno.Location = New System.Drawing.Point(50, 4)
+        Me.lbl_c3_plateno.Name = "lbl_c3_plateno"
+        Me.lbl_c3_plateno.Size = New System.Drawing.Size(85, 20)
+        Me.lbl_c3_plateno.TabIndex = 1
+        Me.lbl_c3_plateno.Text = "LLL-NNNN"
         '
         'Label25
         '
@@ -802,12 +894,14 @@ Partial Class mainmenu
         Me.pnl_c2.Controls.Add(Me.lbl_c2_ct)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_s)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_cd)
+        Me.pnl_c2.Controls.Add(Me.lbl_c2_vac)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_ap)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_st)
         Me.pnl_c2.Controls.Add(Me.Label11)
         Me.pnl_c2.Controls.Add(Me.Label13)
         Me.pnl_c2.Controls.Add(Me.Label14)
         Me.pnl_c2.Controls.Add(Me.Label15)
+        Me.pnl_c2.Controls.Add(Me.Label67)
         Me.pnl_c2.Controls.Add(Me.Label16)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_countup)
         Me.pnl_c2.Controls.Add(Me.lbl_c2_plateno)
@@ -838,16 +932,25 @@ Partial Class mainmenu
         'lbl_c2_cd
         '
         Me.lbl_c2_cd.AutoSize = True
-        Me.lbl_c2_cd.Location = New System.Drawing.Point(397, 29)
+        Me.lbl_c2_cd.Location = New System.Drawing.Point(393, 30)
         Me.lbl_c2_cd.Name = "lbl_c2_cd"
         Me.lbl_c2_cd.Size = New System.Drawing.Size(30, 13)
         Me.lbl_c2_cd.TabIndex = 3
         Me.lbl_c2_cd.Text = "desc"
         '
+        'lbl_c2_vac
+        '
+        Me.lbl_c2_vac.AutoSize = True
+        Me.lbl_c2_vac.Location = New System.Drawing.Point(393, 3)
+        Me.lbl_c2_vac.Name = "lbl_c2_vac"
+        Me.lbl_c2_vac.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c2_vac.TabIndex = 3
+        Me.lbl_c2_vac.Text = "desc"
+        '
         'lbl_c2_ap
         '
         Me.lbl_c2_ap.AutoSize = True
-        Me.lbl_c2_ap.Location = New System.Drawing.Point(398, 16)
+        Me.lbl_c2_ap.Location = New System.Drawing.Point(393, 16)
         Me.lbl_c2_ap.Name = "lbl_c2_ap"
         Me.lbl_c2_ap.Size = New System.Drawing.Size(26, 13)
         Me.lbl_c2_ap.TabIndex = 3
@@ -883,7 +986,7 @@ Partial Class mainmenu
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(310, 29)
+        Me.Label14.Location = New System.Drawing.Point(308, 30)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(82, 13)
         Me.Label14.TabIndex = 2
@@ -892,11 +995,20 @@ Partial Class mainmenu
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(336, 17)
+        Me.Label15.Location = New System.Drawing.Point(335, 17)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(55, 13)
         Me.Label15.TabIndex = 2
         Me.Label15.Text = "Amt. Paid:"
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Location = New System.Drawing.Point(341, 4)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(49, 13)
+        Me.Label67.TabIndex = 2
+        Me.Label67.Text = "Vacuum:"
         '
         'Label16
         '
@@ -944,10 +1056,12 @@ Partial Class mainmenu
         Me.pnl_c1.Controls.Add(Me.lbl_c1_ct)
         Me.pnl_c1.Controls.Add(Me.lbl_c1_s)
         Me.pnl_c1.Controls.Add(Me.lbl_c1_cd)
+        Me.pnl_c1.Controls.Add(Me.lbl_c1_vac)
         Me.pnl_c1.Controls.Add(Me.lbl_c1_ap)
         Me.pnl_c1.Controls.Add(Me.lbl_c1_st)
         Me.pnl_c1.Controls.Add(Me.Label5)
         Me.pnl_c1.Controls.Add(Me.Label4)
+        Me.pnl_c1.Controls.Add(Me.Label66)
         Me.pnl_c1.Controls.Add(Me.Label21)
         Me.pnl_c1.Controls.Add(Me.Label9)
         Me.pnl_c1.Controls.Add(Me.Label2)
@@ -980,16 +1094,25 @@ Partial Class mainmenu
         'lbl_c1_cd
         '
         Me.lbl_c1_cd.AutoSize = True
-        Me.lbl_c1_cd.Location = New System.Drawing.Point(397, 29)
+        Me.lbl_c1_cd.Location = New System.Drawing.Point(393, 31)
         Me.lbl_c1_cd.Name = "lbl_c1_cd"
         Me.lbl_c1_cd.Size = New System.Drawing.Size(30, 13)
         Me.lbl_c1_cd.TabIndex = 3
         Me.lbl_c1_cd.Text = "desc"
         '
+        'lbl_c1_vac
+        '
+        Me.lbl_c1_vac.AutoSize = True
+        Me.lbl_c1_vac.Location = New System.Drawing.Point(393, 4)
+        Me.lbl_c1_vac.Name = "lbl_c1_vac"
+        Me.lbl_c1_vac.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_c1_vac.TabIndex = 3
+        Me.lbl_c1_vac.Text = "desc"
+        '
         'lbl_c1_ap
         '
         Me.lbl_c1_ap.AutoSize = True
-        Me.lbl_c1_ap.Location = New System.Drawing.Point(398, 16)
+        Me.lbl_c1_ap.Location = New System.Drawing.Point(397, 18)
         Me.lbl_c1_ap.Name = "lbl_c1_ap"
         Me.lbl_c1_ap.Size = New System.Drawing.Size(26, 13)
         Me.lbl_c1_ap.TabIndex = 3
@@ -1022,19 +1145,28 @@ Partial Class mainmenu
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Service:"
         '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Location = New System.Drawing.Point(308, 31)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(82, 13)
+        Me.Label66.TabIndex = 2
+        Me.Label66.Text = "Car Description:"
+        '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(310, 29)
+        Me.Label21.Location = New System.Drawing.Point(341, 4)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(82, 13)
+        Me.Label21.Size = New System.Drawing.Size(49, 13)
         Me.Label21.TabIndex = 2
-        Me.Label21.Text = "Car Description:"
+        Me.Label21.Text = "Vacuum:"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(336, 17)
+        Me.Label9.Location = New System.Drawing.Point(335, 18)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(55, 13)
         Me.Label9.TabIndex = 2
@@ -1254,7 +1386,7 @@ Partial Class mainmenu
     Friend WithEvents Label1 As Label
     Friend WithEvents lbl_c1_ct As Label
     Friend WithEvents lbl_c1_s As Label
-    Friend WithEvents lbl_c1_cd As Label
+    Friend WithEvents lbl_c1_vac As Label
     Friend WithEvents lbl_c1_ap As Label
     Friend WithEvents lbl_c1_st As Label
     Friend WithEvents Label5 As Label
@@ -1277,60 +1409,60 @@ Partial Class mainmenu
     Friend WithEvents lbl_c2_plateno As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents pnl_c6 As Panel
-    Friend WithEvents Label52 As Label
-    Friend WithEvents Label53 As Label
-    Friend WithEvents Label54 As Label
-    Friend WithEvents Label55 As Label
-    Friend WithEvents Label56 As Label
+    Friend WithEvents lbl_c6_ct As Label
+    Friend WithEvents lbl_c6_s As Label
+    Friend WithEvents lbl_c6_cd As Label
+    Friend WithEvents lbl_c6_ap As Label
+    Friend WithEvents lbl_c6_st As Label
     Friend WithEvents Label57 As Label
     Friend WithEvents Label58 As Label
     Friend WithEvents Label59 As Label
     Friend WithEvents Label60 As Label
     Friend WithEvents Label61 As Label
-    Friend WithEvents Label62 As Label
-    Friend WithEvents Label63 As Label
+    Friend WithEvents lbl_c6_countup As Label
+    Friend WithEvents lbl_c6_plateno As Label
     Friend WithEvents Label64 As Label
     Friend WithEvents pnl_c5 As Panel
-    Friend WithEvents Label39 As Label
-    Friend WithEvents Label40 As Label
-    Friend WithEvents Label41 As Label
-    Friend WithEvents Label42 As Label
-    Friend WithEvents Label43 As Label
+    Friend WithEvents lbl_c5_ct As Label
+    Friend WithEvents lbl_c5_s As Label
+    Friend WithEvents lbl_c5_cd As Label
+    Friend WithEvents lbl_c5_ap As Label
+    Friend WithEvents lbl_c5_st As Label
     Friend WithEvents Label44 As Label
     Friend WithEvents Label45 As Label
     Friend WithEvents Label46 As Label
     Friend WithEvents Label47 As Label
     Friend WithEvents Label48 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents Label50 As Label
+    Friend WithEvents lbl_c5_countup As Label
+    Friend WithEvents lbl_c5_plateno As Label
     Friend WithEvents Label51 As Label
     Friend WithEvents pnl_c4 As Panel
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Label30 As Label
+    Friend WithEvents lbl_c4_ct As Label
+    Friend WithEvents lbl_c4_s As Label
+    Friend WithEvents lbl_c4_cd As Label
+    Friend WithEvents lbl_c4_ap As Label
+    Friend WithEvents lbl_c4_st As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
-    Friend WithEvents Label36 As Label
-    Friend WithEvents Label37 As Label
+    Friend WithEvents lbl_c4_countup As Label
+    Friend WithEvents lbl_c4_plateno As Label
     Friend WithEvents Label38 As Label
     Friend WithEvents pnl_c3 As Panel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label10 As Label
+    Friend WithEvents lbl_c3_ct As Label
+    Friend WithEvents lbl_c3_s As Label
+    Friend WithEvents lbl_c3_cd As Label
+    Friend WithEvents lbl_c3_ap As Label
+    Friend WithEvents lbl_c3_st As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents Label23 As Label
-    Friend WithEvents Label24 As Label
+    Friend WithEvents lbl_c3_countup As Label
+    Friend WithEvents lbl_c3_plateno As Label
     Friend WithEvents Label25 As Label
     Friend WithEvents tc_1 As TabControl
     Friend WithEvents tp_carwash As TabPage
@@ -1352,4 +1484,16 @@ Partial Class mainmenu
     Friend WithEvents NewServiceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CloseServiceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EditServiceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents lbl_c1_cd As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents lbl_c2_vac As Label
+    Friend WithEvents Label67 As Label
+    Friend WithEvents lbl_c6_vac As Label
+    Friend WithEvents Label81 As Label
+    Friend WithEvents lbl_c5_vac As Label
+    Friend WithEvents Label72 As Label
+    Friend WithEvents lbl_c4_vac As Label
+    Friend WithEvents Label70 As Label
+    Friend WithEvents lbl_c3_vac As Label
+    Friend WithEvents Label68 As Label
 End Class

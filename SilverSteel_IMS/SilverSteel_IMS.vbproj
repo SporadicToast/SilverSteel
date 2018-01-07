@@ -134,6 +134,11 @@
     <Compile Include="form_c_service.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ss_imsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ss_imsDataSet.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="form_login.resx">
@@ -167,12 +172,26 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="ss_imsDataSet.xsc">
+      <DependentUpon>ss_imsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ss_imsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ss_imsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ss_imsDataSet.xss">
+      <DependentUpon>ss_imsDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cas-padlock-icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ims.ico" />
+    <Content Include="ss_ims.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

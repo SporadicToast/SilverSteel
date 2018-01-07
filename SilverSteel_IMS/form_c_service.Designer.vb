@@ -35,19 +35,19 @@ Partial Class form_c_service
         Me.tb_c_cd = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.tb_c_vac = New System.Windows.Forms.TextBox()
+        Me.tb_c_com = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.tb_c_lc = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.tb_c_ap = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.btn_override = New System.Windows.Forms.Button()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.tb_c_lc = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.tb_c_com = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.tb_c_vac = New System.Windows.Forms.TextBox()
         Me.gb_carwash.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -106,7 +106,7 @@ Partial Class form_c_service
         Me.cb_c_ct.Location = New System.Drawing.Point(82, 84)
         Me.cb_c_ct.Name = "cb_c_ct"
         Me.cb_c_ct.Size = New System.Drawing.Size(115, 21)
-        Me.cb_c_ct.TabIndex = 7
+        Me.cb_c_ct.TabIndex = 5
         '
         'cb_c_st
         '
@@ -118,7 +118,7 @@ Partial Class form_c_service
         Me.cb_c_st.Location = New System.Drawing.Point(82, 131)
         Me.cb_c_st.Name = "cb_c_st"
         Me.cb_c_st.Size = New System.Drawing.Size(115, 21)
-        Me.cb_c_st.TabIndex = 6
+        Me.cb_c_st.TabIndex = 7
         '
         'tp_ts
         '
@@ -127,14 +127,14 @@ Partial Class form_c_service
         Me.tp_ts.Name = "tp_ts"
         Me.tp_ts.ShowUpDown = True
         Me.tp_ts.Size = New System.Drawing.Size(115, 20)
-        Me.tp_ts.TabIndex = 5
+        Me.tp_ts.TabIndex = 1
         '
         'btn_set
         '
         Me.btn_set.Location = New System.Drawing.Point(109, 232)
         Me.btn_set.Name = "btn_set"
         Me.btn_set.Size = New System.Drawing.Size(142, 23)
-        Me.btn_set.TabIndex = 3
+        Me.btn_set.TabIndex = 11
         Me.btn_set.Text = "Set"
         Me.btn_set.UseVisualStyleBackColor = True
         '
@@ -152,14 +152,14 @@ Partial Class form_c_service
         Me.tb_plateno.Location = New System.Drawing.Point(82, 38)
         Me.tb_plateno.Name = "tb_plateno"
         Me.tb_plateno.Size = New System.Drawing.Size(115, 20)
-        Me.tb_plateno.TabIndex = 1
+        Me.tb_plateno.TabIndex = 3
         '
         'tb_c_cd
         '
         Me.tb_c_cd.Location = New System.Drawing.Point(82, 61)
         Me.tb_c_cd.Name = "tb_c_cd"
         Me.tb_c_cd.Size = New System.Drawing.Size(115, 20)
-        Me.tb_c_cd.TabIndex = 1
+        Me.tb_c_cd.TabIndex = 4
         '
         'Label8
         '
@@ -179,12 +179,60 @@ Partial Class form_c_service
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Car Desc:"
         '
+        'tb_c_vac
+        '
+        Me.tb_c_vac.Location = New System.Drawing.Point(82, 201)
+        Me.tb_c_vac.Name = "tb_c_vac"
+        Me.tb_c_vac.Size = New System.Drawing.Size(115, 20)
+        Me.tb_c_vac.TabIndex = 10
+        '
+        'tb_c_com
+        '
+        Me.tb_c_com.Location = New System.Drawing.Point(82, 178)
+        Me.tb_c_com.Name = "tb_c_com"
+        Me.tb_c_com.Size = New System.Drawing.Size(115, 20)
+        Me.tb_c_com.TabIndex = 9
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(30, 204)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(49, 13)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "Vacuum:"
+        '
+        'tb_c_lc
+        '
+        Me.tb_c_lc.Location = New System.Drawing.Point(82, 155)
+        Me.tb_c_lc.Name = "tb_c_lc"
+        Me.tb_c_lc.Size = New System.Drawing.Size(115, 20)
+        Me.tb_c_lc.TabIndex = 8
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(25, 181)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(54, 13)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "Comment:"
+        '
         'tb_c_ap
         '
         Me.tb_c_ap.Location = New System.Drawing.Point(82, 108)
         Me.tb_c_ap.Name = "tb_c_ap"
         Me.tb_c_ap.Size = New System.Drawing.Size(115, 20)
-        Me.tb_c_ap.TabIndex = 1
+        Me.tb_c_ap.TabIndex = 6
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(11, 158)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(68, 13)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "Loyalty Card:"
         '
         'Label5
         '
@@ -236,57 +284,9 @@ Partial Class form_c_service
         Me.btn_override.Location = New System.Drawing.Point(124, 319)
         Me.btn_override.Name = "btn_override"
         Me.btn_override.Size = New System.Drawing.Size(142, 23)
-        Me.btn_override.TabIndex = 4
+        Me.btn_override.TabIndex = 14
         Me.btn_override.Text = "Override"
         Me.btn_override.UseVisualStyleBackColor = True
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(11, 158)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(68, 13)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Loyalty Card:"
-        '
-        'tb_c_lc
-        '
-        Me.tb_c_lc.Location = New System.Drawing.Point(82, 155)
-        Me.tb_c_lc.Name = "tb_c_lc"
-        Me.tb_c_lc.Size = New System.Drawing.Size(115, 20)
-        Me.tb_c_lc.TabIndex = 1
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(25, 181)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(54, 13)
-        Me.Label10.TabIndex = 0
-        Me.Label10.Text = "Comment:"
-        '
-        'tb_c_com
-        '
-        Me.tb_c_com.Location = New System.Drawing.Point(82, 178)
-        Me.tb_c_com.Name = "tb_c_com"
-        Me.tb_c_com.Size = New System.Drawing.Size(115, 20)
-        Me.tb_c_com.TabIndex = 1
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(30, 204)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(49, 13)
-        Me.Label11.TabIndex = 0
-        Me.Label11.Text = "Vacuum:"
-        '
-        'tb_c_vac
-        '
-        Me.tb_c_vac.Location = New System.Drawing.Point(82, 201)
-        Me.tb_c_vac.Name = "tb_c_vac"
-        Me.tb_c_vac.Size = New System.Drawing.Size(115, 20)
-        Me.tb_c_vac.TabIndex = 1
         '
         'form_c_service
         '
