@@ -1,12 +1,28 @@
-﻿Module mainprocess
+﻿Imports System.Data.OleDb
+Module mainprocess
     'Variable Declarations
     'Debug Variable
     Public debug As Boolean
     Public version As String
-
+    Public imsdb As New OleDbConnection
     'Carwash Variables
     Public carwash_bool() As Boolean = {False, False, False, False, False, False}
+    'Debug Print
+    Public Function debug_print(message As String) As String
+        System.Diagnostics.Debug.WriteLine(message)
+    End Function
+    'Connection String
+    Public Function load_connection() As String
 
+        imsdb.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\ss_ims.mdb"
+        Try
+            imsdb.Open()
+        Catch ex As Exception
+            debug_print("Opening failed.")
+            MsgBox("Connection to the database has failed, make sure you are using this in a x86 system, database connection errors will occur.")
+        End Try
+        debug_print("Connection attempt completed")
+    End Function
     'Carwash Datalist
     ' 0    1    2    3    4    5    6    7    8    9    10
     'start end lp  card. cart. clnt a.p. s.t. l.c. com. vac.

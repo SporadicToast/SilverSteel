@@ -84,7 +84,8 @@
         End If
     End Sub
 
-    Private Sub pnl_c5_Paint(sender As Object, e As PaintEventArgs) Handles pnl_c5.Paint
 
+    Private Sub mainmenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        load_connection()
     End Sub
 End Class

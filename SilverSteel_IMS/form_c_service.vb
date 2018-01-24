@@ -1,8 +1,21 @@
-﻿Public Class form_c_service
+﻿Imports System.Data.OleDb
+Public Class form_c_service
     Dim current_index As Integer
     Dim n As Integer
+    Dim form_c_q As New OleDbCommand
     Private Sub btn_set_Click(sender As Object, e As EventArgs) Handles btn_set.Click
         current_index = cb_cw.SelectedIndex()
+
+        'Connection attempt
+        Try
+            With form_c_q
+                .CommandText = "SELECT MAX(Number) FROM carwash_table"
+                .CommandType = CommandType.Text
+                .Connection = mainprocess.imsdb
+            End With
+        Catch ex As Exception
+
+        End Try
         If carwash_bool(current_index) = False Then
             'Carwash Datalist
             ' 0    1    2    3    4    5    6    7    8    9    10
