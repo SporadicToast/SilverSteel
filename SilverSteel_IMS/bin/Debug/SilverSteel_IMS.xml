@@ -22,6 +22,16 @@ SilverSteel_IMS
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:SilverSteel_IMS.My.Resources.Resources.carwash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SilverSteel_IMS.My.Resources.Resources.ktv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SilverSteel_IMS.My.Resources.Resources.login_icon">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
