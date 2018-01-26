@@ -82,10 +82,25 @@
             lbl_c6_vac.Text = mainprocess.carwash_datalist(1, 10)
             lbl_c6_cd.Text = mainprocess.carwash_datalist(1, 3)
         End If
+
+        Time.Text = TimeOfDay
+
     End Sub
 
 
     Private Sub mainmenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         load_connection()
+        Dim thisDate As Date
+        thisDate = Today
+        DateToday.Text = Today
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        tc_1.SelectedIndex = 0
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click, PictureBox3.Click
+        tc_1.SelectedIndex = 1
     End Sub
 End Class

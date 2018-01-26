@@ -114,6 +114,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carwashclass.vb" />
+    <Compile Include="form_k_service.Designer.vb">
+      <DependentUpon>form_k_service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_k_service.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="form_login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +169,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="form_k_service.resx">
+      <DependentUpon>form_k_service.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form_login.resx">
       <DependentUpon>form_login.vb</DependentUpon>
     </EmbeddedResource>
@@ -210,6 +220,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ims.ico" />
+    <None Include="Resources\ktv_icon.bmp" />
+    <None Include="Resources\carwash.png" />
+    <None Include="Resources\ktv.png" />
+    <None Include="Resources\inventory.png" />
     <Content Include="ss_ims.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

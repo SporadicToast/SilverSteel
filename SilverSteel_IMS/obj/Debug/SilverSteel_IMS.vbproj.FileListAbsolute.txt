@@ -55,4 +55,35 @@ G:\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.Resources
 G:\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_c_service.resources
 G:\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbproj.GenerateResource.Cache
 C:\Users\macar\Source\Repos\SilverSteel\SilverSteel_IMS\bin\Debug\ss_ims.mdb
-E:\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\ss_ims.mdb
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.exe.config
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.exe
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.xml
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.pdb
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\ss_ims.mdb
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.exe
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.pdb
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.xml
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbprojResolveAssemblyReference.cache
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_login.resources
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_debug.resources
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.mainmenu.resources
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.Resources.resources
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_c_service.resources
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbproj.GenerateResource.Cache
+E:\New Folder (2)\SilverSteel-main_features\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_k_service.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.exe.config
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.exe
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.xml
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.pdb
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\bin\Debug\ss_ims.mdb
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.exe
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.pdb
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\bin\Debug\SilverSteel_IMS.xml
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbprojResolveAssemblyReference.cache
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_k_service.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_login.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_debug.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.mainmenu.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.Resources.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.form_c_service.resources
+E:\New Folder (2)\SilverSteel-info_barimplement\SilverSteel_IMS\obj\Debug\SilverSteel_IMS.vbproj.GenerateResource.Cache
